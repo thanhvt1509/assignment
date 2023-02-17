@@ -7,12 +7,13 @@ import Category from "./page/Category";
 import CategoryDetail from "./page/CategoryDetail";
 import ProjectPage from "./page/ProjectPage";
 import HomePage from "./page/HomePage";
+import ProjectDetail from "./page/ProjectDetail";
 const app = document.querySelector('#app');
-
+// const portfolio = document.querySelector('#portfolio')
 router.on("/", () => render(HomePage, app));
 
-// router.on("/category", () => render(Category, app));
-router.on("/#portfolio/:id", (({ data }) => render(() => CategoryDetail(data), portfolio)));
+router.on("/project_detail", () => render(ProjectDetail, app));
+router.on("/portfolio/:id", (({ data }) => render(() => CategoryDetail(data), app)));
 // router.on("/#portfolio", () => render(ProjectPage, portfolio));
 
 router.on("/admin/projects", () => render(AdminProject, app));
