@@ -1,19 +1,118 @@
 {
   "projects": [
     {
-      "name": "clone web",
+      "name": "undefined",
       "id": 1,
-      "categoryId": 1
+      "categoryId": "2"
     },
     {
       "name": "du an 1",
       "id": 2,
-      "categoryId": 2
+      "categoryId": "2"
     },
     {
       "name": "du an mau",
       "id": 3,
       "categoryId": 2
+    },
+    {
+      "name": "ko biết nữa",
+      "album": [
+        "https://res.cloudinary.com/dqpcsc4yl/image/upload/v1676655513/assignment/drwih1tkff7whbds77xx.jpg",
+        "https://res.cloudinary.com/dqpcsc4yl/image/upload/v1676655514/assignment/snncccapcp4xh5fb1hj9.jpg"
+      ],
+      "id": 4
+    },
+    {
+      "name": "không biết gì đâu",
+      "album": [
+        "https://res.cloudinary.com/dqpcsc4yl/image/upload/v1676655900/assignment/admvq7nwasefob4ihdgf.jpg"
+      ],
+      "language": "html css",
+      "link_git": "âsssss",
+      "description": "aaaaa",
+      "link_web": "sssssss",
+      "id": 5
+    },
+    {
+      "name": "nghiêm vân anh001",
+      "language": "HTML/CSS",
+      "link_git": "vũ tiến thành 001",
+      "link_web": "nghiêm vân anh 001",
+      "description": "Chả biết nói j nữa cơ ...",
+      "id": 6
+    },
+    {
+      "name": "dự án clone tea web",
+      "album": [
+        "https://res.cloudinary.com/dqpcsc4yl/image/upload/v1676732712/assignment/s9lkx4aaajdcfhxhuhqa.webp",
+        "https://res.cloudinary.com/dqpcsc4yl/image/upload/v1676732713/assignment/aoaci8avv1hittw7cspa.webp",
+        "https://res.cloudinary.com/dqpcsc4yl/image/upload/v1676732714/assignment/pcdowdfgvzr8c44qai6u.webp",
+        "https://res.cloudinary.com/dqpcsc4yl/image/upload/v1676732714/assignment/ljdaahivaai8xlpg6tfr.webp"
+      ],
+      "avatar": [
+        "https://res.cloudinary.com/dqpcsc4yl/image/upload/v1676732716/assignment/t1npccch5ayixkqkrfkk.webp"
+      ],
+      "language": "HTML/SCC",
+      "link_git": "aaaaaaaaaaa",
+      "description": "âsass",
+      "link_web": "aaaaaaaaaaaaaa",
+      "categoryId": "1",
+      "id": 8
+    },
+    {
+      "name": "the zed",
+      "album": [],
+      "avatar": [
+        "https://res.cloudinary.com/dqpcsc4yl/image/upload/v1676733735/assignment/hibb52uk8xo2ini2krm3.webp"
+      ],
+      "language": "PHP",
+      "link_git": "jsudasdkasd",
+      "description": "aaaaaa",
+      "link_web": "sàdsfasdfas",
+      "categoryId": "2",
+      "id": 9
+    },
+    {
+      "name": "",
+      "album": [
+        "https://res.cloudinary.com/dqpcsc4yl/image/upload/v1676825662/assignment/yhbnvh21mdpyc924wzey.webp",
+        "https://res.cloudinary.com/dqpcsc4yl/image/upload/v1676825663/assignment/mkkvrjpkxd6ob3kr4gjt.webp",
+        "https://res.cloudinary.com/dqpcsc4yl/image/upload/v1676825664/assignment/xjgy3yiwf1ukm7vcqdxf.webp"
+      ],
+      "language": "",
+      "link_git": "",
+      "description": "",
+      "link_web": "",
+      "categoryId": "1",
+      "id": 10
+    },
+    {
+      "name": "",
+      "album": [
+        "https://res.cloudinary.com/dqpcsc4yl/image/upload/v1676826199/assignment/rcobnpka1cb4ox4dvj6c.webp",
+        "https://res.cloudinary.com/dqpcsc4yl/image/upload/v1676826201/assignment/xnnedovyadd1z6y0ajpg.webp",
+        "https://res.cloudinary.com/dqpcsc4yl/image/upload/v1676826202/assignment/wqgnrmlh9oqwg62sal3z.webp"
+      ],
+      "avatar": [
+        "https://res.cloudinary.com/dqpcsc4yl/image/upload/v1676826202/assignment/hxxfw7dfwe0thpovjpvx.webp"
+      ],
+      "language": "",
+      "link_git": "",
+      "description": "",
+      "link_web": "",
+      "categoryId": "1",
+      "id": 11
+    },
+    {
+      "name": "001",
+      "language": "LOL",
+      "link_git": "aaaaaaaaaaaaa",
+      "link_web": "aaaaaaaaaaaaa",
+      "description": "aaaaaaaaaaaaaaa",
+      "album": [],
+      "categoryId": "1",
+      "id": 12
     }
   ],
   "category": [

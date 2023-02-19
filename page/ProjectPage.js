@@ -59,18 +59,19 @@ const ProjectPage = () => {
             ${projectInCategory.map((item) => `
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                     <div class="portfolio-wrap">
-                        <img src="" class="img-fluid" alt="">
-                        <h1>${item.name}</h1>
+                        <img src="${item.avatar}" class="img-fluid" alt="">
                         <div class="portfolio-info">
                         <h4>App 1</h4>
                         <p>App</p>
                         <div class="portfolio-links">
-                            <a href="/project_detail" class="portfolio-details-lightbox" data-glightbox="type: external"
+                            <a href="/project_detail/${item.id}" class="portfolio-details-lightbox" 
                             title="Portfolio Details"><i class="bx bx-link"></i></a>
                         </div>
                         </div>
                     </div>
-                </div> `).join('')}
+                </div>
+                 `
+    ).join('')}
     </div>
             
 

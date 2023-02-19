@@ -31,7 +31,7 @@ const AdminProject = () => {
         }
     })
     return `
-        <div>
+        <div class="container">
         <table  class="table table-bordered">
             <thead>
                 <tr>
@@ -47,6 +47,7 @@ const AdminProject = () => {
                                 <td>${project.name}</td>
                                 <td>
                                 <button data-id="${project.id}" class="btn-remove btn btn-danger">Xóa</button>
+                                <a class="btn btn-info" href="/admin/projects/${project.id}/detail" >Xem chi tiết</a>
                                 <a class="btn btn-primary" href="/admin/projects/${project.id}/edit">Cập nhật</a>
                                 </td>
                             </tr>
